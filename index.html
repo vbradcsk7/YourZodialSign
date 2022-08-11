@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Se cargan las hojas de estilos haciendo referencia al arciho local mystilos.css en donde se tienen las reglas-->
+    <link rel="stylesheet" href="mystilos.css">
+
+</head>
+
+<body>
+    <h1>Consulte su signo Zodiacal.</h1>
+    <p>Bienvenido Usuario.</p>
+    
+<form>
+    <label> Escriba su nombre:</label><br>
+    <input type="text" id="myText" ><br> 
+    <label> Diga su dia de nacimiento:</label>
+    <input type="number" id="dia" max ="31" min="1" step=""
+    required=""><br>
+    <label> Diga su mes de nacimiento:</label>
+    <input type="number" id="mes" max ="12" min="1" required=""><br>
+    <!--Se tiene un campo con incremento de a 1, con min 1 y max 12/n-->
+    <br>
+    <br>
+    <br>
+
+
+    <button type="button" id="myButton"> Conocer</button>
+
+
+
+<script src="index1.js"></script>
+
+</form>
+
+
+</body>
+</html>
